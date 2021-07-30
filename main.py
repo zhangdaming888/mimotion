@@ -293,11 +293,11 @@ if __name__ ==  "__main__":
         exit(0)
 
     # 用户名（格式为 13800138000）
-    user = input()
+    user = input(15914561381)
     # 登录密码
-    passwd = input()
+    passwd = input(xiaoming0914)
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
-    step = input().replace('[', '').replace(']', '')
+    step = input(100000).replace('[', '').replace(']', '')
 
     user_list = user.split('#')
     passwd_list = passwd.split('#')
