@@ -297,7 +297,7 @@ if __name__ ==  "__main__":
     # 登录密码
     passwd = input(xiaoming0914)
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
-    step = input(100000).replace('[', '').replace(']', '')
+    step = input(6666).replace('[', '').replace(']', '')
 
     user_list = user.split('#')
     passwd_list = passwd.split('#')
